@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d95a15ea.css",
+    "main.js": "/static/js/main.ce9c8ab9.js",
+    "static/media/googles-new-logo-3-hp2x.gif": "/static/media/googles-new-logo-5078286822539264.3-hp2x.8f0cccf70619122e154d.gif",
+    "index.html": "/index.html",
+    "main.d95a15ea.css.map": "/static/css/main.d95a15ea.css.map",
+    "main.ce9c8ab9.js.map": "/static/js/main.ce9c8ab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d95a15ea.css",
+    "static/js/main.ce9c8ab9.js"
+  ]
+}

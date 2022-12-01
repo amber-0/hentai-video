@@ -1,0 +1,160 @@
+.App {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Homeのページ */
+.SignInWrapper{
+  text-align: center;
+}
+
+.SignInWrapper button{
+
+}
+
+/* ---------------------------------------------------------- */
+/* サイドバーのCSS */
+.SidebarWapper{
+  background-color: #212391;
+  height: 100vh;
+  width: 20%;
+}
+
+.SidebarList{
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.SidebarList #active{
+  background-color: rgb(77, 94, 187);
+}
+
+.SidebarList .row{
+  width:100%;
+  height: 60px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.SidebarList .row:hover{
+  cursor: pointer;
+  background-color: rgb(77, 94, 187);
+}
+
+.row #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title{
+  flex: 70%;
+}
+
+.userInfo{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center
+}
+
+.userInfo img{
+  height: 100px;
+  border-radius: 50%;
+}
+
+.userInfo p{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* ---------------------------------------------------------- */
+/* videoの配置 */
+#my-video, #their-video{
+  display: block;
+  float: right;
+}
+
+#my-video{
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+#their-video{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+#my-id{
+  z-index: 50;
+}
+
+
+/* ---------------------------------------------------------- */
+/* 変態のページ */
+.HentaiPeople{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  background-image: url();
+  font-size: 32px;
+}
+
+.HentaiPeople Link{
+  text-decoration: none;
+}
+
+.HentaiPeopleReturn{
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  background-image: url();
+}
+
+/* ---------------------------------------------------------- */
+/* 変態じゃないページ */
+.NotHentaiPeople{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  background-image: url();
+  font-size: 32px;
+  color: #212391;
+}
+
+.NotHentaiPeople:hover{
+  
+}
+
+.NotHentaiPeopleReturn{
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  background-image: url();
+}
+
