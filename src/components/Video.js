@@ -4,7 +4,7 @@ import Peer from 'skyway-js';
 // P2P接続を操作するためのPeerクラスのオブジェクトをインスタンス化
 // keyでAPIキーを取得、debugはログの出力レベル、3が開発用
 const peer = new Peer({
-  key: "77cd23a7-a204-435d-9886-765953d75c73",
+  key: "",
   debug: 3,
 });
 
